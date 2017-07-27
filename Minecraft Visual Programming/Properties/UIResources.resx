@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="MVPname" xml:space="preserve">
+    <value>Minecraft Visual Programming</value>
+  </data>
+  <data name="NewOne" xml:space="preserve">
+    <value>新工程</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="Select_all" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="EditTrigger" xml:space="preserve">
+    <value>编辑触发器</value>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>输出</value>
+  </data>
+  <data name="SelTrigger" xml:space="preserve">
+    <value>选择触发器</value>
+  </data>
+  <data name="TriggerOutput" xml:space="preserve">
+    <value>触发器输出</value>
+  </data>
+  <data name="Announce_to_chat" xml:space="preserve">
+    <value>在完成此进度后广播此信息</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>背景(可选)</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>进度的描述(JSON文本请直接粘贴)</value>
+  </data>
+  <data name="Frame" xml:space="preserve">
+    <value>进度图标边框</value>
+  </data>
+  <data name="Hidden" xml:space="preserve">
+    <value>直到完成进度前在进度屏幕隐藏进度</value>
+  </data>
+  <data name="Icon" xml:space="preserve">
+    <value>进度的图标</value>
+  </data>
+  <data name="isRoot" xml:space="preserve">
+    <value>根进度</value>
+  </data>
+  <data name="I_BlockOrItem" xml:space="preserve">
+    <value>物品ID</value>
+  </data>
+  <data name="I_Data" xml:space="preserve">
+    <value>物品数据值(可选)</value>
+  </data>
+  <data name="Parent" xml:space="preserve">
+    <value>此进度的父目录(可选)</value>
+  </data>
+  <data name="Rewards" xml:space="preserve">
+    <value>进度达成奖励</value>
+  </data>
+  <data name="R_Experience" xml:space="preserve">
+    <value>经验值</value>
+  </data>
+  <data name="R_Function" xml:space="preserve">
+    <value>执行函数</value>
+  </data>
+  <data name="R_Loot" xml:space="preserve">
+    <value>战利品表</value>
+  </data>
+  <data name="R_Recipes" xml:space="preserve">
+    <value>配方列表</value>
+  </data>
+  <data name="Show_toast" xml:space="preserve">
+    <value>在完成此进度后显示提示信息</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>进度的名称(JSON文本请直接粘贴)</value>
+  </data>
+  <data name="MAX" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="MIN" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="Recipe" xml:space="preserve">
+    <value>配方</value>
+  </data>
+  <data name="T_Amplifier" xml:space="preserve">
+    <value>效果放大器</value>
+    <comment>max/min</comment>
+  </data>
+  <data name="T_Block_state" xml:space="preserve">
+    <value>方块状态</value>
+    <comment>单一的方块状态，值为其状态。[enter,place]</comment>
+  </data>
+  <data name="T_Child" xml:space="preserve">
+    <value>繁殖出的孩子</value>
+    <comment>实体</comment>
+  </data>
+  <data name="T_Consume_item" xml:space="preserve">
+    <value>被损耗的物品</value>
+    <comment>物品</comment>
+  </data>
+  <data name="T_distance" xml:space="preserve">
+    <value>距离</value>
+    <comment>max/min[absolute,horizontal,x,y,z];Levitation,nether_travel</comment>
+  </data>
+  <data name="T_distance_absolute" xml:space="preserve">
+    <value>绝对</value>
+    <comment>max/min;Levitation,nether_travel</comment>
+  </data>
+  <data name="T_distance_horizontal" xml:space="preserve">
+    <value>水平位置</value>
+    <comment>max/min;Levitation,nether_travel</comment>
+  </data>
+  <data name="T_Duration" xml:space="preserve">
+    <value>效果持续时间</value>
+    <comment>max/min</comment>
+  </data>
+  <data name="T_EHP_damage" xml:space="preserve">
+    <value>对玩家造成伤害</value>
+    <comment>伤害</comment>
+  </data>
+  <data name="T_EKP_entity" xml:space="preserve">
+    <value>杀死玩家的实体</value>
+  </data>
+  <data name="T_EKP_killingBlow" xml:space="preserve">
+    <value>杀死玩家的伤害</value>
+    <comment>伤害</comment>
+  </data>
+  <data name="T_Enchanted_item" xml:space="preserve">
+    <value>被附魔的物品</value>
+    <comment>物品</comment>
+  </data>
+  <data name="T_Enter_block" xml:space="preserve">
+    <value>进入的方块</value>
+    <comment>方块ID</comment>
+  </data>
+  <data name="T_From" xml:space="preserve">
+    <value>实体出发的维度</value>
+    <comment>overworld,the_nether,the_end</comment>
+  </data>
+  <data name="T_IDC_Delta" xml:space="preserve">
+    <value>耐久度差值</value>
+    <comment>max/min</comment>
+  </data>
+  <data name="T_IDC_Durability" xml:space="preserve">
+    <value>剩余耐久度</value>
+    <comment>max/min</comment>
+  </data>
+  <data name="T_IDC_item" xml:space="preserve">
+    <value>损害前的物品</value>
+    <comment>物品</comment>
+  </data>
+  <data name="T_ITC_items" xml:space="preserve">
+    <value>物品列表</value>
+    <comment>物品</comment>
+  </data>
+  <data name="T_ITC_SEmpty" xml:space="preserve">
+    <value>空槽位数量</value>
+    <comment>max/min</comment>
+  </data>
+  <data name="T_ITC_SFull" xml:space="preserve">
+    <value>满槽位数量</value>
+    <comment>max/min</comment>
+  </data>
+  <data name="T_ITC_slots" xml:space="preserve">
+    <value>物品栏</value>
+  </data>
+  <data name="T_ITC_SOccupied" xml:space="preserve">
+    <value>已使用槽位数量</value>
+    <comment>max/min</comment>
+  </data>
+  <data name="T_Level" xml:space="preserve">
+    <value>信标的层数</value>
+    <comment>max/min</comment>
+  </data>
+  <data name="T_Levels" xml:space="preserve">
+    <value>附魔花费的等级</value>
+    <comment>max/min</comment>
+  </data>
+  <data name="T_Levitation_duration" xml:space="preserve">
+    <value>漂浮时间</value>
+    <comment>max/min;</comment>
+  </data>
+  <data name="T_Location" xml:space="preserve">
+    <value>位置信息</value>
+    <comment>位置</comment>
+  </data>
+  <data name="T_Parent" xml:space="preserve">
+    <value>父或母</value>
+    <comment>实体</comment>
+  </data>
+  <data name="T_Partner" xml:space="preserve">
+    <value>配偶</value>
+    <comment>实体</comment>
+  </data>
+  <data name="T_PHE_damage" xml:space="preserve">
+    <value>玩家造成的伤害</value>
+    <comment>伤害</comment>
+  </data>
+  <data name="T_PKE_entity" xml:space="preserve">
+    <value>玩家杀死的实体</value>
+  </data>
+  <data name="T_PKE_killingBlow" xml:space="preserve">
+    <value>杀死实体的伤害</value>
+    <comment>伤害</comment>
+  </data>
+  <data name="T_Place_block_block" xml:space="preserve">
+    <value>被放置的方块ID</value>
+    <comment>方块ID</comment>
+  </data>
+  <data name="T_Place_block_item" xml:space="preserve">
+    <value>被放置的物品</value>
+    <comment>物品</comment>
+  </data>
+  <data name="T_Place_block_location" xml:space="preserve">
+    <value>被放置的位置</value>
+    <comment>位置信息</comment>
+  </data>
+  <data name="T_Potion" xml:space="preserve">
+    <value>一个酿造药水的ID</value>
+  </data>
+  <data name="T_SIBed_location" xml:space="preserve">
+    <value>睡觉的位置</value>
+    <comment>位置信息</comment>
+  </data>
+  <data name="T_Summon_entity" xml:space="preserve">
+    <value>玩家召唤的实体</value>
+    <comment>铁傀儡（南瓜和铁块）、雪傀儡（南瓜和雪块）、末影龙（末影水晶）和凋灵（灵魂沙和凋灵骷髅头颅）</comment>
+  </data>
+  <data name="T_Tame_animal_entity" xml:space="preserve">
+    <value>玩家驯服的实体</value>
+  </data>
+  <data name="T_To" xml:space="preserve">
+    <value>实体到达的维度</value>
+    <comment>overworld,the_nether,the_end</comment>
+  </data>
+  <data name="T_UEEye_distance" xml:space="preserve">
+    <value>玩家与要塞的水平距离</value>
+    <comment>max/min</comment>
+  </data>
+  <data name="T_Villager" xml:space="preserve">
+    <value>转换后的村民</value>
+    <comment>实体</comment>
+  </data>
+  <data name="T_VTrade_item" xml:space="preserve">
+    <value>与村民购买的物品</value>
+    <comment>物品</comment>
+  </data>
+  <data name="T_VTrade_villager" xml:space="preserve">
+    <value>售卖的村民</value>
+    <comment>实体</comment>
+  </data>
+  <data name="T_Zombie" xml:space="preserve">
+    <value>转换前的僵尸</value>
+    <comment>实体</comment>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="CreateEntity" xml:space="preserve">
+    <value>生成实体</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="ClearTrigger" xml:space="preserve">
+    <value>清除触发器</value>
+  </data>
+  <data name="PleaseEnterInfo" xml:space="preserve">
+    <value>请输入
+(实体NBT,药水NBT,物品NBT,位置信息等)</value>
+  </data>
+  <data name="MinAndMax" xml:space="preserve">
+    <value>设置最小值及最大值</value>
+  </data>
+  <data name="Click_For_MIN_MAX" xml:space="preserve">
+    <value>获取最大最小值</value>
+  </data>
+  <data name="T_effect_name" xml:space="preserve">
+    <value>效果名</value>
+  </data>
+  <data name="PleaseEnterBlockInfo" xml:space="preserve">
+    <value>请输入方块ID</value>
+  </data>
+  <data name="PleaseEnterStateInfo" xml:space="preserve">
+    <value>请输入状态信息(格式例如:"type": "allium")</value>
+  </data>
+  <data name="DamageExample" xml:space="preserve">
+    <value>"source_entity": 
+{
+"type": "skeleton"
+},
+"direct_entity": 
+{
+"type": "arrow"
+},
+"taken": 
+{
+"min": 4.0
+}</value>
+  </data>
+  <data name="YouCanChangeText" xml:space="preserve">
+    <value>Tip:你可以在这里直接更改文本信息</value>
+  </data>
+  <data name="Effects" xml:space="preserve">
+    <value>设置药水效果</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>设置位置信息</value>
+  </data>
+  <data name="PleaseEnterInt" xml:space="preserve">
+    <value>请输入整型数值</value>
+  </data>
+</root>

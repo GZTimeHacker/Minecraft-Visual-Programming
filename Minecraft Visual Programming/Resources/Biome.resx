@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Beach" xml:space="preserve">
+    <value>minecraft:beaches</value>
+    <comment>沙滩</comment>
+  </data>
+  <data name="Birch_Forest" xml:space="preserve">
+    <value>minecraft:birch_forest</value>
+    <comment>桦木森林</comment>
+  </data>
+  <data name="Birch_Forest_Hills" xml:space="preserve">
+    <value>minecraft:birch_forest_hills</value>
+    <comment>桦木森林山丘</comment>
+  </data>
+  <data name="Birch_Forest_Hills_M" xml:space="preserve">
+    <value>minecraft:mutated_birch_forest_hills</value>
+    <comment>桦木森林山丘 M</comment>
+  </data>
+  <data name="Birch_Forest_M" xml:space="preserve">
+    <value>minecraft:mutated_birch_forest</value>
+    <comment>桦木森林 M</comment>
+  </data>
+  <data name="Cold_Beach" xml:space="preserve">
+    <value>minecraft:cold_beach</value>
+    <comment>寒冷沙滩</comment>
+  </data>
+  <data name="Cold_Taiga" xml:space="preserve">
+    <value>minecraft:taiga_cold</value>
+    <comment>冷针叶林</comment>
+  </data>
+  <data name="Cold_Taiga_Hills" xml:space="preserve">
+    <value>minecraft:taiga_cold_hills</value>
+    <comment>冷针叶林山丘</comment>
+  </data>
+  <data name="Cold_Taiga_M" xml:space="preserve">
+    <value>minecraft:mutated_taiga_cold</value>
+    <comment>冷针叶林 M</comment>
+  </data>
+  <data name="Deep_Ocean" xml:space="preserve">
+    <value>minecraft:deep_ocean</value>
+    <comment>深海</comment>
+  </data>
+  <data name="Desert" xml:space="preserve">
+    <value>minecraft:desert</value>
+    <comment>沙漠</comment>
+  </data>
+  <data name="DesertHills" xml:space="preserve">
+    <value>minecraft:desert_hills</value>
+    <comment>沙漠山丘</comment>
+  </data>
+  <data name="Desert_M" xml:space="preserve">
+    <value>minecraft:mutated_desert</value>
+    <comment>沙漠 M</comment>
+  </data>
+  <data name="Extreme_Hills" xml:space="preserve">
+    <value>minecraft:extreme_hills</value>
+    <comment>峭壁</comment>
+  </data>
+  <data name="Extreme_Hills_Edge" xml:space="preserve">
+    <value>minecraft:smaller_extreme_hills</value>
+    <comment>悬崖</comment>
+  </data>
+  <data name="Extreme_Hills_M" xml:space="preserve">
+    <value>minecraft:mutated_extreme_hills</value>
+    <comment>峭壁 M</comment>
+  </data>
+  <data name="Extreme_Hills_plus" xml:space="preserve">
+    <value>minecraft:extreme_hills_with_trees</value>
+    <comment>峭壁_plus</comment>
+  </data>
+  <data name="Extreme_Hills_plus_M" xml:space="preserve">
+    <value>minecraft:mutated_extreme_hills_with_trees</value>
+    <comment>峭壁_plus M</comment>
+  </data>
+  <data name="Flower_Forest" xml:space="preserve">
+    <value>minecraft:mutated_forest</value>
+    <comment>繁花森林</comment>
+  </data>
+  <data name="Forest" xml:space="preserve">
+    <value>minecraft:forest</value>
+    <comment>森林</comment>
+  </data>
+  <data name="ForestHills" xml:space="preserve">
+    <value>minecraft:forest_hills</value>
+    <comment>森林山丘</comment>
+  </data>
+  <data name="FrozenOcean" xml:space="preserve">
+    <value>minecraft:frozen_ocean</value>
+    <comment>冻洋</comment>
+  </data>
+  <data name="FrozenRiver" xml:space="preserve">
+    <value>minecraft:frozen_river</value>
+    <comment>冻河</comment>
+  </data>
+  <data name="Hell" xml:space="preserve">
+    <value>minecraft:hell</value>
+    <comment>地狱</comment>
+  </data>
+  <data name="Ice_Mountains" xml:space="preserve">
+    <value>minecraft:ice_mountains</value>
+    <comment>雪山</comment>
+  </data>
+  <data name="Ice_Plains" xml:space="preserve">
+    <value>minecraft:ice_flats</value>
+    <comment>冰原</comment>
+  </data>
+  <data name="Ice_Plains_Spikes" xml:space="preserve">
+    <value>minecraft:mutated_ice_flats</value>
+    <comment>冰刺平原</comment>
+  </data>
+  <data name="Jungle" xml:space="preserve">
+    <value>minecraft:jungle</value>
+    <comment>丛林</comment>
+  </data>
+  <data name="JungleEdge" xml:space="preserve">
+    <value>minecraft:jungle_edge</value>
+    <comment>丛林边缘</comment>
+  </data>
+  <data name="JungleEdge_M" xml:space="preserve">
+    <value>minecraft:mutated_jungle_edge</value>
+    <comment>丛林边缘 M</comment>
+  </data>
+  <data name="JungleHills" xml:space="preserve">
+    <value>minecraft:jungle_hills</value>
+    <comment>丛林山丘</comment>
+  </data>
+  <data name="Jungle_M" xml:space="preserve">
+    <value>minecraft:mutated_jungle</value>
+    <comment>丛林 M</comment>
+  </data>
+  <data name="Mega_Spruce_Taiga" xml:space="preserve">
+    <value>minecraft:mutated_redwood_taiga</value>
+    <comment>红木森林</comment>
+  </data>
+  <data name="Mega_Taiga" xml:space="preserve">
+    <value>minecraft:redwood_taiga</value>
+    <comment>大型针叶林</comment>
+  </data>
+  <data name="Mega_Taiga_Hills" xml:space="preserve">
+    <value>minecraft:redwood_taiga_hills</value>
+    <comment>大型针叶林山丘</comment>
+  </data>
+  <data name="Mesa" xml:space="preserve">
+    <value>minecraft:mesa</value>
+    <comment>平顶山</comment>
+  </data>
+  <data name="Mesa_Bryce" xml:space="preserve">
+    <value>minecraft:mutated_mesa</value>
+    <comment>平顶山（岩柱）</comment>
+  </data>
+  <data name="Mesa_Plateau" xml:space="preserve">
+    <value>minecraft:mesa_clear_rock</value>
+    <comment>平顶山高原</comment>
+  </data>
+  <data name="Mesa_Plateau_F" xml:space="preserve">
+    <value>minecraft:mesa_rock</value>
+    <comment>平顶山高原 F</comment>
+  </data>
+  <data name="Mesa_Plateau_F_M" xml:space="preserve">
+    <value>minecraft:mutated_mesa_rock</value>
+    <comment>平顶山高原 F M</comment>
+  </data>
+  <data name="Mesa_Plateau_M" xml:space="preserve">
+    <value>minecraft:mutated_mesa_clear_rock</value>
+    <comment>平顶山高原 M</comment>
+  </data>
+  <data name="MushroomIsland" xml:space="preserve">
+    <value>minecraft:mushroom_island</value>
+    <comment>蘑菇岛</comment>
+  </data>
+  <data name="MushroomIslandShore" xml:space="preserve">
+    <value>minecraft:mushroom_island_shore</value>
+    <comment>蘑菇岛岸</comment>
+  </data>
+  <data name="Ocean" xml:space="preserve">
+    <value>minecraft:ocean</value>
+    <comment>海洋</comment>
+  </data>
+  <data name="Plains" xml:space="preserve">
+    <value>minecraft:plains</value>
+    <comment>草原</comment>
+  </data>
+  <data name="Redwood_Taiga_Hills_M" xml:space="preserve">
+    <value>minecraft:mutated_redwood_taiga_hills</value>
+    <comment>红木山丘</comment>
+  </data>
+  <data name="River" xml:space="preserve">
+    <value>minecraft:river</value>
+    <comment>河流</comment>
+  </data>
+  <data name="Roofed_Forest" xml:space="preserve">
+    <value>minecraft:roofed_forest</value>
+    <comment>黑森林</comment>
+  </data>
+  <data name="Roofed_Forest_M" xml:space="preserve">
+    <value>minecraft:mutated_roofed_forest</value>
+    <comment>黑森林 M</comment>
+  </data>
+  <data name="Savanna" xml:space="preserve">
+    <value>minecraft:savanna</value>
+    <comment>热带草原</comment>
+  </data>
+  <data name="Savanna_M" xml:space="preserve">
+    <value>minecraft:mutated_savanna</value>
+    <comment>热带草原 M</comment>
+  </data>
+  <data name="Savanna_Plateau" xml:space="preserve">
+    <value>minecraft:savanna_rock</value>
+    <comment>热带高原</comment>
+  </data>
+  <data name="Savanna_Plateau_M" xml:space="preserve">
+    <value>minecraft:mutated_savanna_rock</value>
+    <comment>热带高原 M</comment>
+  </data>
+  <data name="Stone_Beach" xml:space="preserve">
+    <value>minecraft:stone_beach</value>
+    <comment>石滩</comment>
+  </data>
+  <data name="Sunflower_Plains" xml:space="preserve">
+    <value>minecraft:mutated_plains</value>
+    <comment>向日葵草原</comment>
+  </data>
+  <data name="Swampland" xml:space="preserve">
+    <value>minecraft:swampland</value>
+    <comment>沼泽</comment>
+  </data>
+  <data name="Swampland_M" xml:space="preserve">
+    <value>minecraft:mutated_swampland</value>
+    <comment>沼泽 M</comment>
+  </data>
+  <data name="Taiga" xml:space="preserve">
+    <value>minecraft:taiga</value>
+    <comment>针叶林</comment>
+  </data>
+  <data name="TaigaHills" xml:space="preserve">
+    <value>minecraft:taiga_hills</value>
+    <comment>针叶林山丘</comment>
+  </data>
+  <data name="Taiga_M" xml:space="preserve">
+    <value>minecraft:mutated_taiga</value>
+    <comment>针叶林 M</comment>
+  </data>
+  <data name="The_End" xml:space="preserve">
+    <value>minecraft:sky</value>
+    <comment>末路之地</comment>
+  </data>
+  <data name="The_Void" xml:space="preserve">
+    <value>minecraft:void</value>
+    <comment>虚空</comment>
+  </data>
+</root>

@@ -1,0 +1,33 @@
+﻿<controls:MetroWindow x:Class="Minecraft_Visual_Programming.Trigger.bred_animals"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Minecraft_Visual_Programming"
+        xmlns:p="clr-namespace:Minecraft_Visual_Programming.Properties" 
+        xmlns:t="clr-namespace:Minecraft_Visual_Programming.Resources" 
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"  
+        Background="#FFFAFAFA" 
+        Title="{x:Static t:TGDescribe.bred_animals}" Height="319.2" Width="533.6" Icon="/Minecraft Visual Programming;component/Image/GZ_256X256.ico" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="{x:Static t:Trigger.bred_animals}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="153"/>
+        <Label Content="{x:Static p:UIResources.T_Child}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="153" Margin="0,30,0,0"/>
+        <Label Content="{x:Static p:UIResources.T_Parent}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="153" Margin="176,30,0,0" Grid.ColumnSpan="2"/>
+        <Label Content="{x:Static p:UIResources.T_Partner}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="153" Margin="175.6,30,0,0" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Button x:Name="Create" Content="{x:Static p:UIResources.Create}" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="106.6,257,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Create_Click"/>
+        <Button x:Name="Preview" Content="{x:Static p:UIResources.Preview}" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="28.6,257,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Preview_Click"/>
+        <TextBox x:Name="Child_input" HorizontalAlignment="Left" Height="190" Margin="10,60,0,0" TextWrapping="Wrap" Text="{x:Static p:UIResources.PleaseEnterInfo}" VerticalAlignment="Top" Width="143"/>
+        <TextBox x:Name="Parent_input" HorizontalAlignment="Left" Height="190" Margin="9.6,60,0,0" TextWrapping="Wrap" Text="{x:Static p:UIResources.PleaseEnterInfo}" VerticalAlignment="Top" Width="143" Grid.Column="1"/>
+        <TextBox x:Name="Partner_input" HorizontalAlignment="Left" Height="190" Margin="9.6,60,0,0" TextWrapping="Wrap" Text="{x:Static p:UIResources.PleaseEnterInfo}" VerticalAlignment="Top" Width="143" Grid.Column="2"/>
+
+
+    </Grid>
+</controls:MetroWindow>

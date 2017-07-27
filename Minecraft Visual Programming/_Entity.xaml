@@ -1,0 +1,48 @@
+﻿<controls:MetroWindow x:Class="Minecraft_Visual_Programming.Entity"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+        xmlns:local="clr-namespace:Minecraft_Visual_Programming"
+        xmlns:p="clr-namespace:Minecraft_Visual_Programming.Properties" 
+        xmlns:t="clr-namespace:Minecraft_Visual_Programming.Resources" 
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"  
+        Background="#FFFAFAFA" 
+        Title="{x:Static p:EditFormUIResources.Edit_Entity}" Height="363.549" Width="512.85"  Icon="/Minecraft Visual Programming;component/Image/GZ_256X256.ico" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="{x:Static p:UIResources.Create}" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="54.2,296,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Create_Click"/>
+        <Button Content="{x:Static p:UIResources.Preview}" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="103,296,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Preview_Click" Grid.ColumnSpan="2"/>
+        <CheckBox x:Name="IsEntityID" Content="{x:Static p:EditFormUIResources.Entity_type}" HorizontalAlignment="Left" Height="28" Margin="10,10,0,0" VerticalAlignment="Top" Width="61" IsChecked="True" Click="IsEntityID_Click" FontFamily="Microsoft YaHei"/>
+        <ComboBox x:Name="SelEntity" HorizontalAlignment="Left" Height="20" Margin="71,12,0,0" VerticalAlignment="Top" Width="183" controls:TextBoxHelper.AutoWatermark="True"/>
+        <CheckBox x:Name="IsEntityNBT" Content="{x:Static p:EditFormUIResources.Entity_NBT}" HorizontalAlignment="Left" Height="28" Margin="10,38,0,0" VerticalAlignment="Top" Width="101" IsChecked="True" Click="IsEntityNBT_Click" FontFamily="Microsoft YaHei"/>
+        <TextBox x:Name="GetNBT" HorizontalAlignment="Left" Height="260" Margin="10,66,0,0" TextWrapping="Wrap" Text="{x:Static p:UIResources.PleaseEnterInfo}" VerticalAlignment="Top" Width="244"/>
+        <CheckBox x:Name="IsEntityLocation" Content="{x:Static p:EditFormUIResources.Entity_Location}" HorizontalAlignment="Left" Height="28" Margin="10,10,0,0" VerticalAlignment="Top" Width="101" Grid.Column="1" IsChecked="True" Click="IsEntityLocation_Click" FontFamily="Microsoft YaHei"/>
+        <Button x:Name="GetLocation" Content="{x:Static p:UIResources.Location}" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="10,38,0,0" VerticalAlignment="Top" Width="101" Click="GetLocation_Click"/>
+        <CheckBox x:Name="IsEntityEffect" Content="{x:Static p:EditFormUIResources.Entity_Effects}" HorizontalAlignment="Left" Height="28" Margin="10.2,10,0,0" VerticalAlignment="Top" Width="101" Grid.Column="2" IsChecked="True" Click="IsEntityEffect_Click" FontFamily="Microsoft YaHei"/>
+        <Button x:Name="GetEffect" Content="{x:Static p:UIResources.Effects}" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="10.2,38,0,0" VerticalAlignment="Top" Width="101" Click="GetEffect_Click"/>
+        <CheckBox x:Name="IsDistanceInt" Content="{x:Static p:EditFormUIResources.E_Distance_int}" HorizontalAlignment="Left" Height="28" Margin="10,71,0,0" VerticalAlignment="Top" Width="126" Grid.Column="1" Grid.ColumnSpan="2" IsChecked="True" Click="IsDistanceInt_Click" FontFamily="Microsoft YaHei"/>
+        <CheckBox x:Name="IsDistanceMore" Content="{x:Static p:EditFormUIResources.E_Distance_str}" HorizontalAlignment="Left" Height="28" Margin="10,104,0,0" VerticalAlignment="Top" Width="195" Grid.Column="1" Grid.ColumnSpan="2" IsChecked="True" Click="IsDistanceMore_Click" FontFamily="Microsoft YaHei"/>
+        <TextBox x:Name="GetDistance" Grid.Column="2" HorizontalAlignment="Left" Height="19" Margin="13.8,73,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="97" FontFamily="Microsoft YaHei" TextChanged="GetDistance_TextChanged"/>
+        <Rectangle Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Left" Height="154" Margin="5,137,0,0" Stroke="#FFB4B4B4" VerticalAlignment="Top" Width="239"/>
+        <CheckBox x:Name="IsAbsolute" Content="{x:Static p:EditFormUIResources.E_Distance_absolute}" HorizontalAlignment="Left" Height="28" Margin="10,142,0,0" VerticalAlignment="Top" Width="153" Grid.Column="1" Grid.ColumnSpan="2" IsChecked="True" Click="IsAbsolute_Click" FontFamily="Microsoft YaHei"/>
+        <CheckBox x:Name="IsHorizontal" Content="{x:Static p:EditFormUIResources.E_Distance_horizontal}" HorizontalAlignment="Left" Height="28" Margin="10,170,0,0" VerticalAlignment="Top" Width="153" Grid.Column="1" Grid.ColumnSpan="2" IsChecked="True" Click="IsHorizontal_Click" FontFamily="Microsoft YaHei"/>
+        <CheckBox x:Name="IsX" Content="X" HorizontalAlignment="Left" Height="28" Margin="10,198,0,0" VerticalAlignment="Top" Width="126" Grid.Column="1" Grid.ColumnSpan="2" IsChecked="True" Click="IsX_Click" FontFamily="Microsoft YaHei"/>
+        <CheckBox x:Name="IsY" Content="Y" HorizontalAlignment="Left" Height="28" Margin="10,226,0,0" VerticalAlignment="Top" Width="126" Grid.Column="1" Grid.ColumnSpan="2" IsChecked="True" Click="IsY_Click" FontFamily="Microsoft YaHei"/>
+        <CheckBox x:Name="IsZ" Content="Z" HorizontalAlignment="Left" Height="28" Margin="10,254,0,0" VerticalAlignment="Top" Width="126" Grid.Column="1" Grid.ColumnSpan="2" IsChecked="True" Click="IsZ_Click" FontFamily="Microsoft YaHei"/>
+        <Button x:Name="GetAbsolute" Content="{x:Static p:UIResources.Click_For_MIN_MAX}" HorizontalAlignment="Left" Height="19" Margin="29.8,144,0,0" VerticalAlignment="Top" Width="84" Click="GetAbsolute_Click" Grid.Column="2" FontSize="9"/>
+        <Button x:Name="GetHorizontal" Content="{x:Static p:UIResources.Click_For_MIN_MAX}" HorizontalAlignment="Left" Height="19" Margin="29.8,172,0,0" VerticalAlignment="Top" Width="84" Click="GetHorizontal_Click" Grid.Column="2" FontSize="9"/>
+        <Button x:Name="GetX" Content="{x:Static p:UIResources.Click_For_MIN_MAX}" HorizontalAlignment="Left" Height="19" Margin="29.8,200,0,0" VerticalAlignment="Top" Width="84" Click="GetX_Click" Grid.Column="2" FontSize="9"/>
+        <Button x:Name="GetY" Content="{x:Static p:UIResources.Click_For_MIN_MAX}" HorizontalAlignment="Left" Height="19" Margin="29.8,228,0,0" VerticalAlignment="Top" Width="84" Click="GetY_Click" Grid.Column="2" FontSize="9"/>
+        <Button x:Name="GetZ" Content="{x:Static p:UIResources.Click_For_MIN_MAX}" HorizontalAlignment="Left" Height="19" Margin="29.8,256,0,0" VerticalAlignment="Top" Width="84" Click="GetZ_Click" Grid.Column="2" FontSize="9"/>
+        <Button x:Name="ResetDistance" Content="{x:Static p:EditFormUIResources.Reset}" Grid.Column="2" HorizontalAlignment="Left" Height="28" Margin="67.8,104,0,0" VerticalAlignment="Top" Width="46" Click="ResetDistance_Click"/>
+
+    </Grid>
+</controls:MetroWindow>

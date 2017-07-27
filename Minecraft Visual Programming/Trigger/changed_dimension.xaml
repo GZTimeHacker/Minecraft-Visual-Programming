@@ -1,0 +1,28 @@
+﻿<controls:MetroWindow x:Class="Minecraft_Visual_Programming.Trigger.changed_dimension"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+        xmlns:local="clr-namespace:Minecraft_Visual_Programming"
+        xmlns:p="clr-namespace:Minecraft_Visual_Programming.Properties" 
+        xmlns:t="clr-namespace:Minecraft_Visual_Programming.Resources" 
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"  
+        Background="#FFFAFAFA" 
+        Title="{x:Static t:TGDescribe.changed_dimension}" Height="235.778" Width="264.696" Icon="/Minecraft Visual Programming;component/Image/GZ_256X256.ico" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="{x:Static t:Trigger.changed_dimension}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="238"/>
+        <Button Content="{x:Static p:UIResources.Create}" HorizontalAlignment="Left" Height="30" Margin="190,166,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Create_Click"/>
+        <Button Content="{x:Static p:UIResources.Preview}" HorizontalAlignment="Left" Height="30" Margin="112,166,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Preview_Click"/>
+        <Label Content="{x:Static p:UIResources.T_From}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="238" Grid.ColumnSpan="2" Margin="0,25,0,0"/>
+        <Label Content="{x:Static p:UIResources.T_To}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="238" Margin="0,82,0,0"/>
+        <ComboBox x:Name="From_input" HorizontalAlignment="Left" Height="24" Margin="10,51,0,0" VerticalAlignment="Top" Width="228"/>
+        <ComboBox x:Name="To_input" HorizontalAlignment="Left" Height="24" Margin="10,112,0,0" VerticalAlignment="Top" Width="228"/>
+
+    </Grid>
+</controls:MetroWindow>

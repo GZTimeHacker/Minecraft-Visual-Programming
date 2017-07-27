@@ -1,0 +1,29 @@
+﻿<controls:MetroWindow x:Class="Minecraft_Visual_Programming.MinAndMax"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+        xmlns:local="clr-namespace:Minecraft_Visual_Programming"
+        xmlns:p="clr-namespace:Minecraft_Visual_Programming.Properties" 
+        xmlns:t="clr-namespace:Minecraft_Visual_Programming.Resources" 
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"  
+        Background="#FFFAFAFA" 
+        Title="{x:Static p:UIResources.MinAndMax}" Height="183.146" Width="183.956" Icon="Image/GZ_256X256.ico" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="{x:Static p:UIResources.Create}" HorizontalAlignment="Left" Height="30" Margin="49,119,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Create_Click"/>
+        <Button Content="{x:Static p:UIResources.Preview}" HorizontalAlignment="Left" Height="30" Margin="114,119,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Preview_Click"/>
+        <Slider x:Name="EditMIN" HorizontalAlignment="Left" Height="16" Margin="10,36,0,0" VerticalAlignment="Top" Width="161" SmallChange="1" controls:SliderHelper.ChangeValueBy="LargeChange" IsSnapToTickEnabled="True"/>
+        <Slider x:Name="EditMAX" HorizontalAlignment="Left" Height="16" Margin="10,88,0,0" VerticalAlignment="Top" Width="161" SmallChange="1" controls:SliderHelper.ChangeValueBy="LargeChange" IsSnapToTickEnabled="True"/>
+        <CheckBox x:Name="IsMIN" Content="{x:Static p:UIResources.MIN}" HorizontalAlignment="Left" Height="21" Margin="10,10,0,0" VerticalAlignment="Top" Width="96" IsChecked="True" Click="IsMIN_Click" FontFamily="Microsoft YaHei"/>
+        <CheckBox x:Name="IsMAX" Content="{x:Static p:UIResources.MAX}" HorizontalAlignment="Left" Height="21" Margin="10,62,0,0" VerticalAlignment="Top" Width="96" IsChecked="True" Click="IsMAX_Click" FontFamily="Microsoft YaHei"/>
+        <TextBox x:Name="MinText" HorizontalAlignment="Left" Height="23" Margin="114,8,0,0" TextWrapping="Wrap" Text="{Binding Value, ElementName=EditMIN}" VerticalAlignment="Top" Width="55" TextChanged="MinText_TextChanged"/>
+        <TextBox x:Name="MaxText" HorizontalAlignment="Left" Height="23" Margin="114,62,0,0" TextWrapping="Wrap" Text="{Binding Value, ElementName=EditMAX}" VerticalAlignment="Top" Width="55" TextChanged="MaxText_TextChanged"/>
+
+    </Grid>
+</controls:MetroWindow>

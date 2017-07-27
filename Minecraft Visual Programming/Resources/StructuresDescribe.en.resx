@@ -117,52 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AccidentalOrder" xml:space="preserve">
-    <value>意外的触发器序号。</value>
+  <data name="EndCity" xml:space="preserve">
+    <value>End Cities</value>
+    <comment>末地城</comment>
   </data>
-  <data name="Error" xml:space="preserve">
-    <value>错误！</value>
+  <data name="Fortress" xml:space="preserve">
+    <value>Nether Fortress</value>
+    <comment>下界要塞</comment>
   </data>
-  <data name="ErrorBiomeOrder" xml:space="preserve">
-    <value>错误的生物群系序号！</value>
+  <data name="Mansion" xml:space="preserve">
+    <value>Woodland Mansion</value>
+    <comment>林地府邸</comment>
   </data>
-  <data name="ErrorEffectOrder" xml:space="preserve">
-    <value>错误的效果序号！</value>
+  <data name="MineShaft" xml:space="preserve">
+    <value>Abandoned mineshaft</value>
+    <comment>废弃矿井</comment>
   </data>
-  <data name="ErrorEntityOrder" xml:space="preserve">
-    <value>错误的实体序号！</value>
+  <data name="Monument" xml:space="preserve">
+    <value>Ocean Monument</value>
+    <comment>海底遗迹</comment>
   </data>
-  <data name="ErrorFeatureOrder" xml:space="preserve">
-    <value>错误的结构序号！</value>
+  <data name="Stronghold" xml:space="preserve">
+    <value>Stronghold</value>
+    <comment>要塞</comment>
   </data>
-  <data name="ErrorFrameOrder" xml:space="preserve">
-    <value>错误的边框序号！</value>
+  <data name="Temple" xml:space="preserve">
+    <value>Desert Temples/Jungle Temple</value>
+    <comment>沙漠神殿/丛林神庙</comment>
   </data>
-  <data name="ErrorTriggerOrder" xml:space="preserve">
-    <value>错误的触发器序号！</value>
-  </data>
-  <data name="NoIntExperience" xml:space="preserve">
-    <value>经验需为正整数！</value>
-  </data>
-  <data name="NoIsChecked" xml:space="preserve">
-    <value>请至少选中一项！</value>
-  </data>
-  <data name="NoSelTrigger" xml:space="preserve">
-    <value>未知的触发器类型！</value>
-  </data>
-  <data name="NoSelTriggerInfo" xml:space="preserve">
-    <value>请选择相应的触发器类型！</value>
-  </data>
-  <data name="NotInt" xml:space="preserve">
-    <value>请输入整型数值！</value>
-  </data>
-  <data name="NotSuccess" xml:space="preserve">
-    <value>格式装换不成功，经验必须为正整数！</value>
-  </data>
-  <data name="ResetSuccess" xml:space="preserve">
-    <value>重置成功！</value>
-  </data>
-  <data name="Tip" xml:space="preserve">
-    <value>提示</value>
+  <data name="Village" xml:space="preserve">
+    <value>Village</value>
+    <comment>村庄</comment>
   </data>
 </root>

@@ -1,0 +1,46 @@
+﻿<controls:MetroWindow  x:Class="Minecraft_Visual_Programming.Location"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+        xmlns:local="clr-namespace:Minecraft_Visual_Programming"
+        xmlns:p="clr-namespace:Minecraft_Visual_Programming.Properties" 
+        xmlns:t="clr-namespace:Minecraft_Visual_Programming.Resources" 
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"  
+        Background="#FFFAFAFA" 
+        Title="{x:Static p:EditFormUIResources.Edit_Location}" Height="251.479" Width="523.366" Icon="/Minecraft Visual Programming;component/Image/GZ_256X256.ico" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="16*"/>
+            <ColumnDefinition Width="13*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="{x:Static p:UIResources.Create}" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="155,184,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Create_Click"/>
+        <Button Content="{x:Static p:UIResources.Preview}" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="77,184,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Preview_Click"/>
+        <ComboBox x:Name="SelBiome" HorizontalAlignment="Left" Height="43" Margin="10,33,0,0" VerticalAlignment="Top" Width="254" FontFamily="Microsoft YaHei"/>
+        <CheckBox x:Name="IsBiome" Content="{x:Static p:EditFormUIResources.Location_Biome}" HorizontalAlignment="Left" Height="23" Margin="11,5,0,0" VerticalAlignment="Top" Width="253" FontFamily="Microsoft YaHei" IsChecked="True" Click="IsBiome_Click"/>
+        <CheckBox x:Name="IsDimension" Content="{x:Static p:EditFormUIResources.Location_Dimension}" HorizontalAlignment="Left" Height="23" Margin="12,85,0,0" VerticalAlignment="Top" Width="253" FontFamily="Microsoft YaHei" IsChecked="True" Click="IsDimension_Click"/>
+        <ComboBox x:Name="SelDimension" HorizontalAlignment="Left" Height="26" Margin="11,113,0,0" VerticalAlignment="Top" Width="254" FontFamily="Microsoft YaHei"/>
+        <CheckBox x:Name="IsFeature" Content="{x:Static p:EditFormUIResources.Location_Feature}" HorizontalAlignment="Left" Height="23" Margin="12,144,0,0" VerticalAlignment="Top" Width="253" FontFamily="Microsoft YaHei" IsChecked="True" Click="IsFeature_Click"/>
+        <ComboBox x:Name="SelFeature" HorizontalAlignment="Left" Height="43" Margin="11,172,0,0" VerticalAlignment="Top" Width="254" FontFamily="Microsoft YaHei"/>
+        <CheckBox x:Name="IsPosition" Content="{x:Static p:EditFormUIResources.Location_Position}" HorizontalAlignment="Left" Height="23" Margin="10,5,0,0" VerticalAlignment="Top" Width="201" FontFamily="Microsoft YaHei" Grid.Column="1" IsChecked="True" Click="IsPosition_Click"/>
+        <Rectangle HorizontalAlignment="Left" Height="134" Stroke="#FFB4B4B4" VerticalAlignment="Top" Width="211" Grid.Column="1" Margin="11,33,0,0"/>
+
+        <Grid Grid.Column="1" Margin="11,33,10.4,57.4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <CheckBox x:Name="IsX" Content="X" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" VerticalAlignment="Top" Width="35" FontFamily="Microsoft YaHei" IsChecked="True" Click="IsX_Click"/>
+            <CheckBox x:Name="IsY" Content="Y" HorizontalAlignment="Left" Height="23" Margin="10,9.333,0,0" VerticalAlignment="Top" Width="35" FontFamily="Microsoft YaHei" IsChecked="True" Grid.Row="1" Click="IsY_Click"/>
+            <CheckBox x:Name="IsZ" Content="Z" HorizontalAlignment="Left" Height="23" Margin="10,9.667,0,0" VerticalAlignment="Top" Width="35" FontFamily="Microsoft YaHei" IsChecked="True" Grid.Row="2" Click="IsZ_Click"/>
+            <Button x:Name="GetX" Click="GetX_Click" Content="{x:Static p:UIResources.Click_For_MIN_MAX}" HorizontalAlignment="Left" Height="17" Margin="78,8,0,0" VerticalAlignment="Top" Width="119" FontSize="9"/>
+            <Button x:Name="GetY" Content="{x:Static p:UIResources.Click_For_MIN_MAX}" HorizontalAlignment="Left" Height="24" Margin="78,10.333,0,0" VerticalAlignment="Top" Width="119" FontSize="9" Grid.Row="1" Click="GetY_Click"/>
+            <Button x:Name="GetZ" Content="{x:Static p:UIResources.Click_For_MIN_MAX}" HorizontalAlignment="Left" Height="23" Margin="78,9.533,0,0" VerticalAlignment="Top" Width="119" FontSize="9" Grid.Row="2" Click="GetZ_Click"/>
+        </Grid>
+        <Button x:Name="ResetPosition" Content="{x:Static p:EditFormUIResources.Reset}" Grid.Column="1" HorizontalAlignment="Left" Height="28" Margin="176,3,0,0" VerticalAlignment="Top" Width="46" Click="ResetPosition_Click"/>
+    </Grid>
+</controls:MetroWindow>

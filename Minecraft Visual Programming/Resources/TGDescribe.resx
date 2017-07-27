@@ -117,52 +117,88 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AccidentalOrder" xml:space="preserve">
-    <value>意外的触发器序号。</value>
+  <data name="bred_animals" xml:space="preserve">
+    <value>繁殖两个动物</value>
   </data>
-  <data name="Error" xml:space="preserve">
-    <value>错误！</value>
+  <data name="brewed_potion" xml:space="preserve">
+    <value>拿出一瓶酿造好的药水</value>
   </data>
-  <data name="ErrorBiomeOrder" xml:space="preserve">
-    <value>错误的生物群系序号！</value>
+  <data name="changed_dimension" xml:space="preserve">
+    <value>在两个维度间旅行</value>
   </data>
-  <data name="ErrorEffectOrder" xml:space="preserve">
-    <value>错误的效果序号！</value>
+  <data name="construct_beacon" xml:space="preserve">
+    <value>更改信标结构</value>
   </data>
-  <data name="ErrorEntityOrder" xml:space="preserve">
-    <value>错误的实体序号！</value>
+  <data name="consume_item" xml:space="preserve">
+    <value>玩家损耗了物品</value>
   </data>
-  <data name="ErrorFeatureOrder" xml:space="preserve">
-    <value>错误的结构序号！</value>
+  <data name="cured_zombie_villager" xml:space="preserve">
+    <value>玩家治愈了僵尸村民</value>
   </data>
-  <data name="ErrorFrameOrder" xml:space="preserve">
-    <value>错误的边框序号！</value>
+  <data name="effects_changed" xml:space="preserve">
+    <value>玩家获得/消除状态效果</value>
   </data>
-  <data name="ErrorTriggerOrder" xml:space="preserve">
-    <value>错误的触发器序号！</value>
+  <data name="enchanted_item" xml:space="preserve">
+    <value>玩家通过附魔台附魔物品</value>
   </data>
-  <data name="NoIntExperience" xml:space="preserve">
-    <value>经验需为正整数！</value>
+  <data name="enter_block" xml:space="preserve">
+    <value>玩家进入方块</value>
   </data>
-  <data name="NoIsChecked" xml:space="preserve">
-    <value>请至少选中一项！</value>
+  <data name="entity_hurt_player" xml:space="preserve">
+    <value>实体伤害玩家</value>
   </data>
-  <data name="NoSelTrigger" xml:space="preserve">
-    <value>未知的触发器类型！</value>
+  <data name="entity_killed_player" xml:space="preserve">
+    <value>实体杀死玩家</value>
   </data>
-  <data name="NoSelTriggerInfo" xml:space="preserve">
-    <value>请选择相应的触发器类型！</value>
+  <data name="impossible" xml:space="preserve">
+    <value>不可能，通过命令触发</value>
   </data>
-  <data name="NotInt" xml:space="preserve">
-    <value>请输入整型数值！</value>
+  <data name="inventory_changed" xml:space="preserve">
+    <value>玩家物品栏变化</value>
   </data>
-  <data name="NotSuccess" xml:space="preserve">
-    <value>格式装换不成功，经验必须为正整数！</value>
+  <data name="item_durability_changed" xml:space="preserve">
+    <value>物品栏中任何物品以任何形式损害</value>
   </data>
-  <data name="ResetSuccess" xml:space="preserve">
-    <value>重置成功！</value>
+  <data name="levitation" xml:space="preserve">
+    <value>玩家获得漂浮状态效果</value>
   </data>
-  <data name="Tip" xml:space="preserve">
-    <value>提示</value>
+  <data name="location" xml:space="preserve">
+    <value>每个游戏刻（每秒20次）检查玩家的位置</value>
+  </data>
+  <data name="nether_travel" xml:space="preserve">
+    <value>玩家进入下界，然后返回主世界</value>
+  </data>
+  <data name="placed_block" xml:space="preserve">
+    <value>玩家放置方块</value>
+  </data>
+  <data name="player_hurt_entity" xml:space="preserve">
+    <value>玩家伤害实体（包括自己）</value>
+  </data>
+  <data name="player_killed_entity" xml:space="preserve">
+    <value>玩家杀死实体</value>
+  </data>
+  <data name="recipe_unlocked" xml:space="preserve">
+    <value>玩家解锁配方</value>
+  </data>
+  <data name="slept_in_bed" xml:space="preserve">
+    <value>玩家上床睡觉</value>
+  </data>
+  <data name="summoned_entity" xml:space="preserve">
+    <value>玩家召唤了实体</value>
+  </data>
+  <data name="tame_animal" xml:space="preserve">
+    <value>玩家驯服动物</value>
+  </data>
+  <data name="tick" xml:space="preserve">
+    <value>每个游戏刻触发（每秒20次）</value>
+  </data>
+  <data name="used_ender_eye" xml:space="preserve">
+    <value>玩家使用末影之眼（在有要塞生成的世界）</value>
+  </data>
+  <data name="used_totem" xml:space="preserve">
+    <value>玩家使用图腾</value>
+  </data>
+  <data name="villager_trade" xml:space="preserve">
+    <value>玩家与村民交易</value>
   </data>
 </root>

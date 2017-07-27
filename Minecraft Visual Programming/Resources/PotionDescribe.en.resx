@@ -117,52 +117,148 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AccidentalOrder" xml:space="preserve">
-    <value>意外的触发器序号。</value>
+  <data name="Awkward_Potion" xml:space="preserve">
+    <value>Awkward Potion</value>
+    <comment>awkward</comment>
   </data>
-  <data name="Error" xml:space="preserve">
-    <value>错误！</value>
+  <data name="Fire_Resistance" xml:space="preserve">
+    <value>Fire Resistance</value>
+    <comment>fire_resistance</comment>
   </data>
-  <data name="ErrorBiomeOrder" xml:space="preserve">
-    <value>错误的生物群系序号！</value>
+  <data name="Harming" xml:space="preserve">
+    <value>Harming</value>
+    <comment>harming</comment>
   </data>
-  <data name="ErrorEffectOrder" xml:space="preserve">
-    <value>错误的效果序号！</value>
+  <data name="Harming_II" xml:space="preserve">
+    <value>Harming II</value>
+    <comment>strong_harming</comment>
   </data>
-  <data name="ErrorEntityOrder" xml:space="preserve">
-    <value>错误的实体序号！</value>
+  <data name="Instant_Health" xml:space="preserve">
+    <value>Instant Health</value>
+    <comment>healing</comment>
   </data>
-  <data name="ErrorFeatureOrder" xml:space="preserve">
-    <value>错误的结构序号！</value>
+  <data name="Instant_Health_II" xml:space="preserve">
+    <value>Instant Health II</value>
+    <comment>strong_healing</comment>
   </data>
-  <data name="ErrorFrameOrder" xml:space="preserve">
-    <value>错误的边框序号！</value>
+  <data name="Invisibility" xml:space="preserve">
+    <value>Invisibility</value>
+    <comment>invisibility</comment>
   </data>
-  <data name="ErrorTriggerOrder" xml:space="preserve">
-    <value>错误的触发器序号！</value>
+  <data name="Leaping" xml:space="preserve">
+    <value>Leaping</value>
+    <comment>leaping</comment>
   </data>
-  <data name="NoIntExperience" xml:space="preserve">
-    <value>经验需为正整数！</value>
+  <data name="Leaping_II" xml:space="preserve">
+    <value>Leaping II</value>
+    <comment>strong_leaping</comment>
   </data>
-  <data name="NoIsChecked" xml:space="preserve">
-    <value>请至少选中一项！</value>
+  <data name="Long_Fire_Resistance" xml:space="preserve">
+    <value>Long Fire Resistance</value>
+    <comment>long_fire_resistance</comment>
   </data>
-  <data name="NoSelTrigger" xml:space="preserve">
-    <value>未知的触发器类型！</value>
+  <data name="Long_Invisibility" xml:space="preserve">
+    <value>Long Invisibility</value>
+    <comment>long_invisibility</comment>
   </data>
-  <data name="NoSelTriggerInfo" xml:space="preserve">
-    <value>请选择相应的触发器类型！</value>
+  <data name="Long_Leaping" xml:space="preserve">
+    <value>Long Leaping</value>
+    <comment>long_leaping</comment>
   </data>
-  <data name="NotInt" xml:space="preserve">
-    <value>请输入整型数值！</value>
+  <data name="Long_Night_Vision" xml:space="preserve">
+    <value>Long Night Vision</value>
+    <comment>long_night_vision</comment>
   </data>
-  <data name="NotSuccess" xml:space="preserve">
-    <value>格式装换不成功，经验必须为正整数！</value>
+  <data name="Long_Poison" xml:space="preserve">
+    <value>Long Poison</value>
+    <comment>long_poison</comment>
   </data>
-  <data name="ResetSuccess" xml:space="preserve">
-    <value>重置成功！</value>
+  <data name="Long_Regeneration" xml:space="preserve">
+    <value>Long Regeneration</value>
+    <comment>long_regeneration</comment>
   </data>
-  <data name="Tip" xml:space="preserve">
-    <value>提示</value>
+  <data name="Long_Slowness" xml:space="preserve">
+    <value>Long Slowness</value>
+    <comment>long_slowness</comment>
+  </data>
+  <data name="Long_Strength" xml:space="preserve">
+    <value>Long Strength</value>
+    <comment>long_strength</comment>
+  </data>
+  <data name="Long_Swiftness" xml:space="preserve">
+    <value>Long Swiftness</value>
+    <comment>long_swiftness</comment>
+  </data>
+  <data name="Long_Water_Breathing" xml:space="preserve">
+    <value>Long Water Breathing</value>
+    <comment>long_water_breathing</comment>
+  </data>
+  <data name="Long_Weakness" xml:space="preserve">
+    <value>Long Weakness</value>
+    <comment>long_weakness</comment>
+  </data>
+  <data name="Luck" xml:space="preserve">
+    <value>Luck</value>
+    <comment>luck</comment>
+  </data>
+  <data name="Mundane_Potion" xml:space="preserve">
+    <value>Mundane Potion</value>
+    <comment>mundane</comment>
+  </data>
+  <data name="Night_Vision" xml:space="preserve">
+    <value>Night Vision</value>
+    <comment>night_vision</comment>
+  </data>
+  <data name="Poison" xml:space="preserve">
+    <value>Poison</value>
+    <comment>poison</comment>
+  </data>
+  <data name="Poison_II" xml:space="preserve">
+    <value>Poison II</value>
+    <comment>strong_poison</comment>
+  </data>
+  <data name="Regeneration" xml:space="preserve">
+    <value>Regeneration</value>
+    <comment>regeneration</comment>
+  </data>
+  <data name="Regeneration_II" xml:space="preserve">
+    <value>Regeneration II</value>
+    <comment>strong_regeneration</comment>
+  </data>
+  <data name="Slowness" xml:space="preserve">
+    <value>Slowness</value>
+    <comment>slowness</comment>
+  </data>
+  <data name="Strength" xml:space="preserve">
+    <value>Strength</value>
+    <comment>strength</comment>
+  </data>
+  <data name="Strength_II" xml:space="preserve">
+    <value>Strength II</value>
+    <comment>strong_strength</comment>
+  </data>
+  <data name="Swiftness" xml:space="preserve">
+    <value>Swiftness</value>
+    <comment>swiftness</comment>
+  </data>
+  <data name="Swiftness_II" xml:space="preserve">
+    <value>Swiftness II</value>
+    <comment>strong_swiftness</comment>
+  </data>
+  <data name="Thick_Potion" xml:space="preserve">
+    <value>Thick Potion</value>
+    <comment>thick</comment>
+  </data>
+  <data name="Water_Bottle" xml:space="preserve">
+    <value>Water Bottle</value>
+    <comment>water</comment>
+  </data>
+  <data name="Water_Breathing" xml:space="preserve">
+    <value>Water Breathing</value>
+    <comment>water_breathing</comment>
+  </data>
+  <data name="Weakness" xml:space="preserve">
+    <value>Weakness</value>
+    <comment>weakness</comment>
   </data>
 </root>

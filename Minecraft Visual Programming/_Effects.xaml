@@ -1,0 +1,29 @@
+﻿<controls:MetroWindow x:Class="Minecraft_Visual_Programming.Effects"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+        xmlns:local="clr-namespace:Minecraft_Visual_Programming"
+        xmlns:p="clr-namespace:Minecraft_Visual_Programming.Properties" 
+        xmlns:t="clr-namespace:Minecraft_Visual_Programming.Resources" 
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"  
+        Background="#FFFAFAFA" 
+        Title="{x:Static p:EditFormUIResources.Edit_Effects}" Height="135.543" Width="394.51" Icon="/Minecraft Visual Programming;component/Image/GZ_256X256.ico" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="{x:Static p:UIResources.Create}" HorizontalAlignment="Left" Height="30" Margin="321,53,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Create_Click"/>
+        <Button Content="{x:Static p:UIResources.Preview}" HorizontalAlignment="Left" Height="30" Margin="321,8,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Preview_Click"/>
+        <CheckBox x:Name="IsAmplifier" Content="{x:Static p:UIResources.T_Amplifier}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="108" Margin="10,43,0,0" Click="IsAmplifier_Click" IsChecked="True" FontFamily="Microsoft YaHei"/>
+        <Button x:Name="GetAmplifier" Content="{x:Static p:UIResources.Click_For_MIN_MAX}" HorizontalAlignment="Left" Height="33" Margin="10,66,0,0" VerticalAlignment="Top" Width="87" Click="GetAmplifier_Click"/>
+        <CheckBox x:Name="IsDuration" Content="{x:Static p:UIResources.T_Duration}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="109" Margin="164,43,0,0" Click="IsDuration_Click" IsChecked="True" FontFamily="Microsoft YaHei"/>
+        <Button x:Name="GetDuration" Content="{x:Static p:UIResources.Click_For_MIN_MAX}" HorizontalAlignment="Left" Height="33" Margin="164,66,0,0" VerticalAlignment="Top" Width="87" Click="GetDuration_Click"/>
+        <ComboBox x:Name="SelEffect" HorizontalAlignment="Left" Height="19" Margin="74,12,0,0" VerticalAlignment="Top" Width="234"/>
+        <Label Content="{x:Static p:UIResources.T_effect_name}" HorizontalAlignment="Left" Height="28" Margin="19,12,0,0" VerticalAlignment="Top" Width="55"/>
+
+    </Grid>
+</controls:MetroWindow> 

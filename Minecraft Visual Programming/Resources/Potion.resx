@@ -117,52 +117,148 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AccidentalOrder" xml:space="preserve">
-    <value>意外的触发器序号。</value>
+  <data name="Awkward_Potion" xml:space="preserve">
+    <value>awkward</value>
+    <comment>粗制的药水</comment>
   </data>
-  <data name="Error" xml:space="preserve">
-    <value>错误！</value>
+  <data name="Fire_Resistance" xml:space="preserve">
+    <value>fire_resistance</value>
+    <comment>抗火</comment>
   </data>
-  <data name="ErrorBiomeOrder" xml:space="preserve">
-    <value>错误的生物群系序号！</value>
+  <data name="Harming" xml:space="preserve">
+    <value>harming</value>
+    <comment>伤害</comment>
   </data>
-  <data name="ErrorEffectOrder" xml:space="preserve">
-    <value>错误的效果序号！</value>
+  <data name="Harming_II" xml:space="preserve">
+    <value>strong_harming</value>
+    <comment>伤害II</comment>
   </data>
-  <data name="ErrorEntityOrder" xml:space="preserve">
-    <value>错误的实体序号！</value>
+  <data name="Instant_Health" xml:space="preserve">
+    <value>healing</value>
+    <comment>治疗</comment>
   </data>
-  <data name="ErrorFeatureOrder" xml:space="preserve">
-    <value>错误的结构序号！</value>
+  <data name="Instant_Health_II" xml:space="preserve">
+    <value>strong_healing</value>
+    <comment>治疗II</comment>
   </data>
-  <data name="ErrorFrameOrder" xml:space="preserve">
-    <value>错误的边框序号！</value>
+  <data name="Invisibility" xml:space="preserve">
+    <value>invisibility</value>
+    <comment>隐身</comment>
   </data>
-  <data name="ErrorTriggerOrder" xml:space="preserve">
-    <value>错误的触发器序号！</value>
+  <data name="Leaping" xml:space="preserve">
+    <value>leaping</value>
+    <comment>跳跃</comment>
   </data>
-  <data name="NoIntExperience" xml:space="preserve">
-    <value>经验需为正整数！</value>
+  <data name="Leaping_II" xml:space="preserve">
+    <value>strong_leaping</value>
+    <comment>跳跃II</comment>
   </data>
-  <data name="NoIsChecked" xml:space="preserve">
-    <value>请至少选中一项！</value>
+  <data name="Long_Fire_Resistance" xml:space="preserve">
+    <value>long_fire_resistance</value>
+    <comment>抗火-延长</comment>
   </data>
-  <data name="NoSelTrigger" xml:space="preserve">
-    <value>未知的触发器类型！</value>
+  <data name="Long_Invisibility" xml:space="preserve">
+    <value>long_invisibility</value>
+    <comment>隐身-延长</comment>
   </data>
-  <data name="NoSelTriggerInfo" xml:space="preserve">
-    <value>请选择相应的触发器类型！</value>
+  <data name="Long_Leaping" xml:space="preserve">
+    <value>long_leaping</value>
+    <comment>跳跃-延长</comment>
   </data>
-  <data name="NotInt" xml:space="preserve">
-    <value>请输入整型数值！</value>
+  <data name="Long_Night_Vision" xml:space="preserve">
+    <value>long_night_vision</value>
+    <comment>夜视-延长</comment>
   </data>
-  <data name="NotSuccess" xml:space="preserve">
-    <value>格式装换不成功，经验必须为正整数！</value>
+  <data name="Long_Poison" xml:space="preserve">
+    <value>long_poison</value>
+    <comment>中毒-延长</comment>
   </data>
-  <data name="ResetSuccess" xml:space="preserve">
-    <value>重置成功！</value>
+  <data name="Long_Regeneration" xml:space="preserve">
+    <value>long_regeneration</value>
+    <comment>再生-延长</comment>
   </data>
-  <data name="Tip" xml:space="preserve">
-    <value>提示</value>
+  <data name="Long_Slowness" xml:space="preserve">
+    <value>long_slowness</value>
+    <comment>缓慢-延长</comment>
+  </data>
+  <data name="Long_Strength" xml:space="preserve">
+    <value>long_strength</value>
+    <comment>力量-延长</comment>
+  </data>
+  <data name="Long_Swiftness" xml:space="preserve">
+    <value>long_swiftness</value>
+    <comment>迅捷-延长</comment>
+  </data>
+  <data name="Long_Water_Breathing" xml:space="preserve">
+    <value>long_water_breathing</value>
+    <comment>水下呼吸-延长</comment>
+  </data>
+  <data name="Long_Weakness" xml:space="preserve">
+    <value>long_weakness</value>
+    <comment>虚弱-延长</comment>
+  </data>
+  <data name="Luck" xml:space="preserve">
+    <value>luck</value>
+    <comment>幸运</comment>
+  </data>
+  <data name="Mundane_Potion" xml:space="preserve">
+    <value>mundane</value>
+    <comment>平凡的药水</comment>
+  </data>
+  <data name="Night_Vision" xml:space="preserve">
+    <value>night_vision</value>
+    <comment>夜视</comment>
+  </data>
+  <data name="Poison" xml:space="preserve">
+    <value>poison</value>
+    <comment>中毒</comment>
+  </data>
+  <data name="Poison_II" xml:space="preserve">
+    <value>strong_poison</value>
+    <comment>中毒II</comment>
+  </data>
+  <data name="Regeneration" xml:space="preserve">
+    <value>regeneration</value>
+    <comment>再生</comment>
+  </data>
+  <data name="Regeneration_II" xml:space="preserve">
+    <value>strong_regeneration</value>
+    <comment>再生II</comment>
+  </data>
+  <data name="Slowness" xml:space="preserve">
+    <value>slowness</value>
+    <comment>缓慢</comment>
+  </data>
+  <data name="Strength" xml:space="preserve">
+    <value>strength</value>
+    <comment>力量</comment>
+  </data>
+  <data name="Strength_II" xml:space="preserve">
+    <value>strong_strength</value>
+    <comment>力量II</comment>
+  </data>
+  <data name="Swiftness" xml:space="preserve">
+    <value>swiftness</value>
+    <comment>迅捷</comment>
+  </data>
+  <data name="Swiftness_II" xml:space="preserve">
+    <value>strong_swiftness</value>
+    <comment>迅捷II</comment>
+  </data>
+  <data name="Thick_Potion" xml:space="preserve">
+    <value>thick</value>
+    <comment>浑浊的药水</comment>
+  </data>
+  <data name="Water_Bottle" xml:space="preserve">
+    <value>water</value>
+    <comment>水瓶</comment>
+  </data>
+  <data name="Water_Breathing" xml:space="preserve">
+    <value>water_breathing</value>
+    <comment>水下呼吸</comment>
+  </data>
+  <data name="Weakness" xml:space="preserve">
+    <value>weakness</value>
+    <comment>虚弱</comment>
   </data>
 </root>

@@ -117,52 +117,58 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AccidentalOrder" xml:space="preserve">
-    <value>意外的触发器序号。</value>
+  <data name="Edit_Effects" xml:space="preserve">
+    <value>编辑效果信息</value>
   </data>
-  <data name="Error" xml:space="preserve">
-    <value>错误！</value>
+  <data name="Edit_Entity" xml:space="preserve">
+    <value>编辑实体信息</value>
   </data>
-  <data name="ErrorBiomeOrder" xml:space="preserve">
-    <value>错误的生物群系序号！</value>
+  <data name="Edit_Hurt" xml:space="preserve">
+    <value>编辑伤害信息</value>
   </data>
-  <data name="ErrorEffectOrder" xml:space="preserve">
-    <value>错误的效果序号！</value>
+  <data name="Edit_Item" xml:space="preserve">
+    <value>编辑物品信息</value>
   </data>
-  <data name="ErrorEntityOrder" xml:space="preserve">
-    <value>错误的实体序号！</value>
+  <data name="Edit_Location" xml:space="preserve">
+    <value>编辑位置信息</value>
   </data>
-  <data name="ErrorFeatureOrder" xml:space="preserve">
-    <value>错误的结构序号！</value>
+  <data name="Entity_Effects" xml:space="preserve">
+    <value>实体药水效果</value>
   </data>
-  <data name="ErrorFrameOrder" xml:space="preserve">
-    <value>错误的边框序号！</value>
+  <data name="Entity_Location" xml:space="preserve">
+    <value>实体位置信息</value>
   </data>
-  <data name="ErrorTriggerOrder" xml:space="preserve">
-    <value>错误的触发器序号！</value>
+  <data name="Entity_NBT" xml:space="preserve">
+    <value>实体NBT</value>
   </data>
-  <data name="NoIntExperience" xml:space="preserve">
-    <value>经验需为正整数！</value>
+  <data name="Entity_type" xml:space="preserve">
+    <value>实体ID</value>
   </data>
-  <data name="NoIsChecked" xml:space="preserve">
-    <value>请至少选中一项！</value>
+  <data name="E_Distance_absolute" xml:space="preserve">
+    <value>实体到玩家的绝对距离</value>
   </data>
-  <data name="NoSelTrigger" xml:space="preserve">
-    <value>未知的触发器类型！</value>
+  <data name="E_Distance_horizontal" xml:space="preserve">
+    <value>实体到玩家的水平距离</value>
   </data>
-  <data name="NoSelTriggerInfo" xml:space="preserve">
-    <value>请选择相应的触发器类型！</value>
+  <data name="E_Distance_int" xml:space="preserve">
+    <value>实体到玩家的距离</value>
   </data>
-  <data name="NotInt" xml:space="preserve">
-    <value>请输入整型数值！</value>
+  <data name="E_Distance_str" xml:space="preserve">
+    <value>实体到玩家的距离的详细内容</value>
   </data>
-  <data name="NotSuccess" xml:space="preserve">
-    <value>格式装换不成功，经验必须为正整数！</value>
+  <data name="Reset" xml:space="preserve">
+    <value>重置</value>
   </data>
-  <data name="ResetSuccess" xml:space="preserve">
-    <value>重置成功！</value>
+  <data name="Location_Biome" xml:space="preserve">
+    <value>实体所在生物群系</value>
   </data>
-  <data name="Tip" xml:space="preserve">
-    <value>提示</value>
+  <data name="Location_Dimension" xml:space="preserve">
+    <value>实体所在维度</value>
+  </data>
+  <data name="Location_Feature" xml:space="preserve">
+    <value>实体所在结构名称</value>
+  </data>
+  <data name="Location_Position" xml:space="preserve">
+    <value>实体所在坐标</value>
   </data>
 </root>

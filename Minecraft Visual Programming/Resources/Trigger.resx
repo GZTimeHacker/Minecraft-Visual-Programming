@@ -117,52 +117,116 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AccidentalOrder" xml:space="preserve">
-    <value>意外的触发器序号。</value>
+  <data name="bred_animals" xml:space="preserve">
+    <value>minecraft:bred_animals</value>
+    <comment>繁殖两个动物</comment>
   </data>
-  <data name="Error" xml:space="preserve">
-    <value>错误！</value>
+  <data name="brewed_potion" xml:space="preserve">
+    <value>minecraft:brewed_potion</value>
+    <comment>拿出一瓶酿造好的药水</comment>
   </data>
-  <data name="ErrorBiomeOrder" xml:space="preserve">
-    <value>错误的生物群系序号！</value>
+  <data name="changed_dimension" xml:space="preserve">
+    <value>minecraft:changed_dimension</value>
+    <comment>在两个维度间旅行</comment>
   </data>
-  <data name="ErrorEffectOrder" xml:space="preserve">
-    <value>错误的效果序号！</value>
+  <data name="construct_beacon" xml:space="preserve">
+    <value>minecraft:construct_beacon</value>
+    <comment>更改信标结构</comment>
   </data>
-  <data name="ErrorEntityOrder" xml:space="preserve">
-    <value>错误的实体序号！</value>
+  <data name="consume_item" xml:space="preserve">
+    <value>minecraft:consume_item</value>
+    <comment>玩家损耗了物品</comment>
   </data>
-  <data name="ErrorFeatureOrder" xml:space="preserve">
-    <value>错误的结构序号！</value>
+  <data name="cured_zombie_villager" xml:space="preserve">
+    <value>minecraft:cured_zombie_villager</value>
+    <comment>玩家治愈了僵尸村民</comment>
   </data>
-  <data name="ErrorFrameOrder" xml:space="preserve">
-    <value>错误的边框序号！</value>
+  <data name="effects_changed" xml:space="preserve">
+    <value>minecraft:effects_changed</value>
+    <comment>玩家获得/消除状态效果</comment>
   </data>
-  <data name="ErrorTriggerOrder" xml:space="preserve">
-    <value>错误的触发器序号！</value>
+  <data name="enchanted_item" xml:space="preserve">
+    <value>minecraft:enchanted_item</value>
+    <comment>玩家通过附魔台附魔物品</comment>
   </data>
-  <data name="NoIntExperience" xml:space="preserve">
-    <value>经验需为正整数！</value>
+  <data name="enter_block" xml:space="preserve">
+    <value>minecraft:enter_block</value>
+    <comment>玩家进入方块</comment>
   </data>
-  <data name="NoIsChecked" xml:space="preserve">
-    <value>请至少选中一项！</value>
+  <data name="entity_hurt_player" xml:space="preserve">
+    <value>minecraft:entity_hurt_player</value>
+    <comment>实体伤害玩家</comment>
   </data>
-  <data name="NoSelTrigger" xml:space="preserve">
-    <value>未知的触发器类型！</value>
+  <data name="entity_killed_player" xml:space="preserve">
+    <value>minecraft:entity_killed_player</value>
+    <comment>实体杀死玩家</comment>
   </data>
-  <data name="NoSelTriggerInfo" xml:space="preserve">
-    <value>请选择相应的触发器类型！</value>
+  <data name="impossible" xml:space="preserve">
+    <value>minecraft:impossible</value>
+    <comment>不可能，通过命令触发</comment>
   </data>
-  <data name="NotInt" xml:space="preserve">
-    <value>请输入整型数值！</value>
+  <data name="inventory_changed" xml:space="preserve">
+    <value>minecraft:inventory_changed</value>
+    <comment>玩家物品栏变化</comment>
   </data>
-  <data name="NotSuccess" xml:space="preserve">
-    <value>格式装换不成功，经验必须为正整数！</value>
+  <data name="item_durability_changed" xml:space="preserve">
+    <value>minecraft:item_durability_changed</value>
+    <comment>物品栏中任何物品以任何形式损害</comment>
   </data>
-  <data name="ResetSuccess" xml:space="preserve">
-    <value>重置成功！</value>
+  <data name="levitation" xml:space="preserve">
+    <value>minecraft:levitation</value>
+    <comment>玩家获得漂浮状态效果</comment>
   </data>
-  <data name="Tip" xml:space="preserve">
-    <value>提示</value>
+  <data name="location" xml:space="preserve">
+    <value>minecraft:location</value>
+    <comment>每个游戏刻（每秒20次）检查玩家的位置</comment>
+  </data>
+  <data name="nether_travel" xml:space="preserve">
+    <value>minecraft:nether_travel</value>
+    <comment>玩家进入下界，然后返回主世界</comment>
+  </data>
+  <data name="placed_block" xml:space="preserve">
+    <value>minecraft:placed_block</value>
+    <comment>玩家放置方块</comment>
+  </data>
+  <data name="player_hurt_entity" xml:space="preserve">
+    <value>minecraft:player_hurt_entity</value>
+    <comment>玩家伤害实体（包括自己）</comment>
+  </data>
+  <data name="player_killed_entity" xml:space="preserve">
+    <value>minecraft:player_killed_entity</value>
+    <comment>玩家杀死实体</comment>
+  </data>
+  <data name="recipe_unlocked" xml:space="preserve">
+    <value>minecraft:recipe_unlocked</value>
+    <comment>玩家解锁配方</comment>
+  </data>
+  <data name="slept_in_bed" xml:space="preserve">
+    <value>minecraft:slept_in_bed</value>
+    <comment>玩家上床睡觉</comment>
+  </data>
+  <data name="summoned_entity" xml:space="preserve">
+    <value>minecraft:summoned_entity</value>
+    <comment>玩家召唤了实体</comment>
+  </data>
+  <data name="tame_animal" xml:space="preserve">
+    <value>minecraft:tame_animal</value>
+    <comment>玩家驯服动物</comment>
+  </data>
+  <data name="tick" xml:space="preserve">
+    <value>minecraft:tick</value>
+    <comment>每个游戏刻触发（每秒20次）</comment>
+  </data>
+  <data name="used_ender_eye" xml:space="preserve">
+    <value>minecraft:used_ender_eye</value>
+    <comment>玩家使用末影之眼（在有要塞生成的世界）</comment>
+  </data>
+  <data name="used_totem" xml:space="preserve">
+    <value>minecraft:used_totem</value>
+    <comment>玩家使用图腾</comment>
+  </data>
+  <data name="villager_trade" xml:space="preserve">
+    <value>minecraft:villager_trade</value>
+    <comment>玩家与村民交易</comment>
   </data>
 </root>

@@ -1,0 +1,28 @@
+﻿<controls:MetroWindow x:Class="Minecraft_Visual_Programming.Trigger.enchanted_item"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+        xmlns:local="clr-namespace:Minecraft_Visual_Programming"
+        xmlns:p="clr-namespace:Minecraft_Visual_Programming.Properties" 
+        xmlns:t="clr-namespace:Minecraft_Visual_Programming.Resources" 
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"  
+        Background="#FFFAFAFA" 
+        Title="{x:Static t:TGDescribe.enchanted_item}" Height="325.448" Width="245.032" Icon="/Minecraft Visual Programming;component/Image/GZ_256X256.ico" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="{x:Static t:Trigger.enchanted_item}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="238"/>
+        <Button Content="{x:Static p:UIResources.Create}" HorizontalAlignment="Left" Height="30" Margin="170,258,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Create_Click"/>
+        <Button Content="{x:Static p:UIResources.Preview}" HorizontalAlignment="Left" Height="30" Margin="92,258,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Preview_Click"/>
+        <CheckBox x:Name="IsItem" Content="{x:Static p:UIResources.T_Enchanted_item}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="188" Margin="10,33,0,0" Click="IsItem_Click" IsChecked="True"/>
+        <CheckBox x:Name="IsLevels" Content="{x:Static p:UIResources.T_Levels}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="128" Margin="10,218,0,0" IsChecked="True" Click="IsLevels_Click"/>
+        <Button x:Name="GetLevels" Content="{x:Static p:UIResources.Click_For_MIN_MAX}" HorizontalAlignment="Left" Height="33" Margin="143,211,0,0" VerticalAlignment="Top" Width="87" Click="GetLevels_Click"/>
+        <TextBox x:Name="Item_input" HorizontalAlignment="Left" Height="150" Margin="10,56,0,0" TextWrapping="Wrap" Text="{x:Static p:UIResources.PleaseEnterInfo}" VerticalAlignment="Top" Width="220"/>
+
+    </Grid>
+</controls:MetroWindow>

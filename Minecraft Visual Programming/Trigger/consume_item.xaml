@@ -1,0 +1,26 @@
+﻿<controls:MetroWindow x:Class="Minecraft_Visual_Programming.Trigger.consume_item"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" 
+        xmlns:local="clr-namespace:Minecraft_Visual_Programming"
+        xmlns:p="clr-namespace:Minecraft_Visual_Programming.Properties" 
+        xmlns:t="clr-namespace:Minecraft_Visual_Programming.Resources" 
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"  
+        Background="#FFFAFAFA" 
+        Title="{x:Static t:TGDescribe.consume_item}" Height="321.608" Width="178.404" Icon="/Minecraft Visual Programming;component/Image/GZ_256X256.ico" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="{x:Static t:Trigger.consume_item}" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Black" Width="238"/>
+        <Button Content="{x:Static p:UIResources.Create}" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="106.6,257,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Create_Click"/>
+        <Button Content="{x:Static p:UIResources.Preview}" Grid.Column="2" HorizontalAlignment="Left" Height="30" Margin="28.6,257,0,0" VerticalAlignment="Top" Width="60" Background="#FFB4B4B4" Foreground="White" BorderBrush="White" Click="Preview_Click"/>
+        <Label Content="{x:Static p:UIResources.T_Consume_item}" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Item_input" HorizontalAlignment="Left" Height="190" Margin="10,51,0,0" TextWrapping="Wrap" Text="{x:Static p:UIResources.PleaseEnterInfo}" VerticalAlignment="Top" Width="154"/>
+
+    </Grid>
+</controls:MetroWindow>
