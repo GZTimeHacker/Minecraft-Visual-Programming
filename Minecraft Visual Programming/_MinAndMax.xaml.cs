@@ -49,11 +49,13 @@ namespace Minecraft_Visual_Programming
         private void IsMIN_Click(object sender, RoutedEventArgs e)
         {
             if ((bool)IsMIN.IsChecked) { EditMIN.IsEnabled = true; } else { EditMIN.IsEnabled = false; }
+            if ((bool)IsMIN.IsChecked) { MinText.IsEnabled = true; } else { MinText.IsEnabled = false; }
         }
 
         private void IsMAX_Click(object sender, RoutedEventArgs e)
         {
             if ((bool)IsMAX.IsChecked) { EditMAX.IsEnabled = true; } else { EditMAX.IsEnabled = false; }
+            if ((bool)IsMAX.IsChecked) { MaxText.IsEnabled = true; } else { MaxText.IsEnabled = false; }
         }
 
         private void MinText_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
